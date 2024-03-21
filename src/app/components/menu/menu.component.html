@@ -1,0 +1,22 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<section>
+    <ul class="menu">
+        <div class="botones_idiomas">
+            <button class="esp" (click)="cambiarIdioma('es')">ES</button> 
+            <p>|</p> 
+            <button class="ingles" (click)="cambiarIdioma('en')">EN</button>
+        </div>
+        <li><a routerLink="/sobre-mi" routerLinkActive="active"><span>Sobre mí</span></a></li>
+        <li><a routerLink="/habilidades" routerLinkActive="active"><span>Skills</span></a></li>
+        <li><a routerLink="/proyectos" routerLinkActive="active"><span>Proyectos</span></a></li>
+        <li><a routerLink="/experiencia" routerLinkActive="active"><span>Experiencia</span></a></li>
+        <li><a routerLink="/educacion" routerLinkActive="active"><span>Educación</span></a></li>
+        <li><a routerLink="/contacto" routerLinkActive="active"><span>Contacto</span></a></li>
+    </ul>
+</section>
+
