@@ -12,9 +12,9 @@ export class MenuEnComponent {
 
   cambiarIdioma(idioma: string){
     if (idioma === 'es') {
-      this.router.navigate(['/app-menu']);
+      this.router.navigate(['/app-portfolio']);
     } else if(idioma==='en') {
-      this.router.navigate(['/app-menu-en']);
+      this.router.navigate(['/app-portfolio-en']);
     }
   }
 

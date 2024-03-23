@@ -17,4 +17,8 @@ export class InicioComponent {
       this.router.navigate(['/app-home']);
     }
   }
+
+  verPortfolio(): void{
+    this.router.navigate(['/app-portfolio']);
+  }
 }
