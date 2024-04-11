@@ -6,6 +6,7 @@ import { MenuComponent } from './components/menu/menu.component';
 import { MenuEnComponent } from './components/menu-en/menu-en.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { PortfolioEnComponent } from './pages/portfolio-en/portfolio-en.component';
+import { CardSkillsComponent } from './components/card-skills/card-skills.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/app-inicio', pathMatch: 'full' },
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'app-menu-en', component: MenuEnComponent },
   { path: 'app-portfolio', component: PortfolioComponent },
   { path: 'app-portfolio-en', component: PortfolioEnComponent },
+  { path: 'app-card-skills', component: CardSkillsComponent },
   
 ];
 

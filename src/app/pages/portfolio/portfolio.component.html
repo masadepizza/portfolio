@@ -2,9 +2,6 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 
-
-
-
 <div class="portfolio">
     <section id="sobre-mi">
         <h1>Sobre mí</h1>
@@ -18,22 +15,23 @@
 
     </section>
 
-    <section id="habilidades">
+<section id="habilidades">
 
-        <h1>Sobre mí</h1>
-        <p>¡Hola! Soy Mabel. Aquí podrás saber un poco más sobre mis proyectos 
-            y cómo llegué a interesarme por el mundo de la programación. </p>
-        <p>Tras traducir textos para una web comercial durante mis prácticas en Filología Inglesa, 
-            cambié mi enfoque profesional hacia el desarrollo web y móvil. 
-            Completé un bootcamp full stack, desarrollé una app móvil y realicé múltiples cursos de programación, 
-            y actualmente estoy diseñando y desarrollando mis propios proyectos.</p>
-        <p>Mira mi experiencia laboral en detalle en <a (click)="irALinkedIn()">LinkedIn</a>.</p>
+    <h1>Skills</h1>
 
-    </section>
+    <div class="cards-skills">
+        <app-card-skills titulo="Lenguajes de programación" [imagenes]="fotosCard1" [tecnologias]="tecnologiasCard1"></app-card-skills>
+        <app-card-skills titulo="Frameworks y librerías" [imagenes]="fotosCard2" [tecnologias]="tecnologiasCard2"></app-card-skills>
+        <app-card-skills titulo="Bases de datos" [imagenes]="fotosCard3" [tecnologias]="tecnologiasCard3"></app-card-skills>
+        <app-card-skills titulo="Herramientas y metodologías" [imagenes]="fotosCard4" [tecnologias]="tecnologiasCard4"></app-card-skills>
+    </div>
+    
+</section>
+
 
     <section id="proyectos">
 
-        <h1>Sobre mí</h1>
+        <h1>Proyectos</h1>
         <p>¡Hola! Soy Mabel. Aquí podrás saber un poco más sobre mis proyectos 
             y cómo llegué a interesarme por el mundo de la programación. </p>
         <p>Tras traducir textos para una web comercial durante mis prácticas en Filología Inglesa, 
@@ -46,7 +44,7 @@
 
     <section id="experiencia">
 
-        <h1>Sobre mí</h1>
+        <h1>Experiencia</h1>
         <p>¡Hola! Soy Mabel. Aquí podrás saber un poco más sobre mis proyectos 
             y cómo llegué a interesarme por el mundo de la programación. </p>
         <p>Tras traducir textos para una web comercial durante mis prácticas en Filología Inglesa, 
@@ -59,7 +57,7 @@
 
     <section id="educacion">
 
-        <h1>Sobre mí</h1>
+        <h1>Educación</h1>
         <p>¡Hola! Soy Mabel. Aquí podrás saber un poco más sobre mis proyectos 
             y cómo llegué a interesarme por el mundo de la programación. </p>
         <p>Tras traducir textos para una web comercial durante mis prácticas en Filología Inglesa, 
@@ -71,14 +69,21 @@
 
     <section id="contacto">
 
-        <h1>Sobre mí</h1>
-        <p>¡Hola! Soy Mabel. Aquí podrás saber un poco más sobre mis proyectos 
-            y cómo llegué a interesarme por el mundo de la programación. </p>
-        <p>Tras traducir textos para una web comercial durante mis prácticas en Filología Inglesa, 
-            cambié mi enfoque profesional hacia el desarrollo web y móvil. 
-            Completé un bootcamp full stack, desarrollé una app móvil y realicé múltiples cursos de programación, 
-            y actualmente estoy diseñando y desarrollando mis propios proyectos.</p>
-        <p>Mira mi experiencia laboral en detalle en <a (click)="irALinkedIn()">LinkedIn</a>.</p>
+        <h1>Contacta conmigo</h1>
+        <div class="contacta_contenido">
+            <div class="contacta_item">
+                <img src="../../../assets/at.png" class="imagen_email" alt=""> <a href="mailto:mabelsanromanf@gmail.com" class="email">mabelsanromanf&#64;gmail.com</a>
+            </div>
+            <div class="contacta_item">
+                <img src="../../../assets/github.png" class="imagen_github" alt=""> <a (click)="irAGithub()">Github</a>
+            </div>
+            <div class="contacta_item">
+                <img src="../../../assets/linkedin.png" class="imagen_linkedin" alt=""> <a (click)="irALinkedIn()">LinkedIn</a>
+            </div>
+            <div class="contacta_item">
+                <img src="../../../assets/movil.png" class="imagen_movil" alt=""> <p>678235074</p>
+            </div>
+        </div>
 
     </section>
 </div>

@@ -9,6 +9,9 @@ import { MenuComponent } from './components/menu/menu.component';
 import { MenuEnComponent } from './components/menu-en/menu-en.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { PortfolioEnComponent } from './pages/portfolio-en/portfolio-en.component';
+import { CardSkillsComponent } from './components/card-skills/card-skills.component';
+import { CardEducacionComponent } from './components/card-educacion/card-educacion.component';
+import { CardExpComponent } from './components/card-exp/card-exp.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +22,9 @@ import { PortfolioEnComponent } from './pages/portfolio-en/portfolio-en.componen
     MenuEnComponent,
     PortfolioComponent,
     PortfolioEnComponent,
+    CardSkillsComponent,
+    CardEducacionComponent,
+    CardExpComponent,
   ],
   imports: [
     BrowserModule,

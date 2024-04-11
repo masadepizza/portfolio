@@ -1,0 +1,13 @@
+<div class="card">
+    <div class="cuerpo-card">
+        <h4 class="titulo">{{ titulo }}</h4>
+        <div class="image-container">
+            <div class="image-wrapper" *ngFor="let imagen of imagenes; let i = index">
+                <img [src]="imagen" alt="" 
+                (mouseover)="showTechnologyName(i)"
+                (mouseout)="hideTechnologyName()">
+                <span class="technology-name" *ngIf="hoveredIndex === i">{{ tecnologias[i] }}</span>
+            </div>
+        </div>
+    </div>
+</div>
