@@ -12,6 +12,7 @@ import { PortfolioEnComponent } from './pages/portfolio-en/portfolio-en.componen
 import { CardSkillsComponent } from './components/card-skills/card-skills.component';
 import { CardEducacionComponent } from './components/card-educacion/card-educacion.component';
 import { CardExpComponent } from './components/card-exp/card-exp.component';
+import { CardProyectosComponent } from './components/card-proyectos/card-proyectos.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { CardExpComponent } from './components/card-exp/card-exp.component';
     CardSkillsComponent,
     CardEducacionComponent,
     CardExpComponent,
+    CardProyectosComponent,
   ],
   imports: [
     BrowserModule,

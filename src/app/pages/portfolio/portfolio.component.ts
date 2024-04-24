@@ -23,7 +23,7 @@ export class PortfolioComponent {
   tecnologiasCard1: string[] = ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'Java'];
   tecnologiasCard2: string[] = ['Angular', 'Bootstrap', 'jQuery'];
   tecnologiasCard3: string[] = ['MySQL', 'MongoDB'];
-  tecnologiasCard4: string[] = ['Figma', 'Visual Studio Code', 'Node.js', 'Spring Boot', 'Postman', 'Github', 'Metodologías ágiles'];
+  tecnologiasCard4: string[] = ['Figma', 'VS Code', 'Node.js', 'Spring Boot', 'Postman', 'Github', 'Metodologías Ágiles'];
 
 
   constructor(private elRef:ElementRef){}
