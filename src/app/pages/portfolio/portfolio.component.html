@@ -32,13 +32,12 @@
     <section id="proyectos">
 
         <h1>Proyectos</h1>
-        <p>¡Hola! Soy Mabel. Aquí podrás saber un poco más sobre mis proyectos 
-            y cómo llegué a interesarme por el mundo de la programación. </p>
-        <p>Tras traducir textos para una web comercial durante mis prácticas en Filología Inglesa, 
-            cambié mi enfoque profesional hacia el desarrollo web y móvil. 
-            Completé un bootcamp full stack, desarrollé una app móvil y realicé múltiples cursos de programación, 
-            y actualmente estoy diseñando y desarrollando mis propios proyectos.</p>
-        <p>Mira mi experiencia laboral en detalle en <a (click)="irALinkedIn()">LinkedIn</a>.</p>
+
+        <div class="cards-skills">
+            <app-card-proyectos imagen="../../../assets/video_galago.mp4" titulo="GalaGo" descripcion="App móvil de alquiler de ropa desarrollada como proyecto final de bootcamp." ></app-card-proyectos>
+            <app-card-proyectos titulo="Librería" descripcion="Página web que funciona como librería online para diferentes usuarios." ></app-card-proyectos>
+            <app-card-proyectos titulo="PokeApi" descripcion="Página web que llama a una API externa de Pokemon y muestra sus datos." ></app-card-proyectos>
+        </div>
 
     </section>
 

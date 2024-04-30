@@ -26,6 +26,8 @@ export class PortfolioComponent {
   tecnologiasCard4: string[] = ['Figma', 'VS Code', 'Node.js', 'Spring Boot', 'Postman', 'Github', 'Metodologías Ágiles'];
 
 
+  //fotos cards proyectos
+
   constructor(private elRef:ElementRef){}
 
   irALinkedIn(): void {
