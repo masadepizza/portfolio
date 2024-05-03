@@ -1,16 +1,24 @@
 <div class="card">
-    <div class="media" >
-        <img [src]="imagen" alt="" >
-        <video src=""></video>
-    </div>
-    <div class="content">
-      <h4 class="titulo">{{titulo}}</h4>
-      <p class="descripcion">{{descripcion}}</p>
-    </div>
-    <div class="footer">
-      <img [src]="footer1" alt="Imagen 1">
-      <img [src]="footer2" alt="Imagen 2">
-    </div>
+  <div class="media">
+    <video controls>
+      <source [src]="video" type="video/mp4">
+      Tu navegador no soporta el elemento de video.
+    </video>
   </div>
+  <div class="content">
+    <h4 class="titulo">{{titulo}}</h4>
+    <p class="descripcion">{{descripcion}}</p>
+  </div>
+  <div class="footer">
+    <a href="{{GithubProyecto}}" target="_blank">
+      <img class="footerimgs" src="../../../assets/github2.png" alt="Imagen 1"> 
+    </a>
+
+    <a href="{{LinkProyecto}}" target="_blank">
+      <img class="footerimgs" src="../../../assets/link.png" alt="Imagen 2"> 
+    </a>
+  </div>
+</div>
+
   
 

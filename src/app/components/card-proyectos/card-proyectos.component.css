@@ -1,28 +1,72 @@
 .card {
-    width: 220px;
-    height: 480px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    overflow: hidden;
+  width: 220px;
+  height: 480px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-left:20px; 
+  margin-right: 20px;
+}
+
+.media {
+  height: 250px;
+  background-color: #f0f0f0;
+  position: relative;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  padding: 20px;
+}
+
+  .content p{
+    margin-top: 10px;
   }
-  
-  .media {
-    height: 50%;
-    background-color: #f0f0f0;
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer img {
+  width: 50%;
+  height: auto;
+}
+
+a{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+
+@keyframes show{
+  from {
+      opacity: 0;
+      scale: 15%;
   }
-  
-  .content {
-    padding: 20px;
+
+  to{
+      opacity: 1;
+      scale: 100%;
   }
-  
-  .footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-  }
-  
-  .footer img {
-    width: 45%;
-    height: auto;
-  }
-  
+}
+.footerimgs{
+  view-timeline-name: --texto;
+	view-timeline-axis: block;
+
+	animation-timeline: --texto;
+	animation-name: show;
+
+	animation-range: entry 65% cover 20%;
+	animation-fill-mode: both;
+}

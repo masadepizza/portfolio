@@ -9,8 +9,9 @@ export class CardProyectosComponent {
 
   @Input() titulo!:string;
   @Input() descripcion!:string;
-  @Input() imagen!:string;
-  @Input() footer1!:string[];
-  @Input() footer2!:string[];
-
+  @Input() video!:string;
+  @Input() footer1!:string;
+  @Input() footer2!:string;
+  @Input() GithubProyecto!: string;
+  @Input() LinkProyecto!: string;
 }
