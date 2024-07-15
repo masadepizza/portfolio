@@ -157,11 +157,12 @@ p, h1, img, a{
         color: inherit;
         text-align: center; 
         line-height: 55px;
-        animation: shake 0.4s ease infinite;
+        
     }
 
     .boton_cv .cv:hover{
         background-color: #5e4668;
+        animation: shake 0.4s ease;
     }
 
     .boton_cv .cv:active{
